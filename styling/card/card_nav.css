@@ -1,18 +1,10 @@
 .card_top-section {
-    height: 40px;
+    height: 2.5rem;
     display: flex;
     justify-content: space-between;
+    margin-bottom: .7rem;
 }
 
-.card_top-icons * {
-    height: 1.3rem;
-    width: 1.3rem;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0 .3rem;
-    
-}
 
 .card_top-text {
     display: flex;
@@ -40,9 +32,19 @@
 }
 
 .icon1 {
-background: url(/assets/ant-design_heart-outlined.svg);
+    background: url(/assets/ant-design_heart-outlined.png);
 }
 
 .icon2 {
-background: url(/assets/Vector.svg);
+    background: url(/assets/Vector.png);
+}
+
+.card_top-icons * {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0 .3rem;
+    
 }

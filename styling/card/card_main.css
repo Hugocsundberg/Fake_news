@@ -11,10 +11,28 @@ body, html {
 }
 
 .card {
-    margin: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    height: 600px;
-    background: red;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 43rem;
+    background: #E1E9F4;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_image {
+    height: 15.1rem;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1603194477931-31739b04367d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-position: center;
     border-radius: 15px;
 }
+
+.card_main-content {
+    /* height: 100%; */
+    position: relative;
+
+}
+
