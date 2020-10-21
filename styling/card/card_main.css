@@ -1,16 +1,13 @@
-body, html {
-    margin: 0;
-    padding: 0;
+.gridContainer {
+    justify-items: center;
+    max-width: 90rem;
     width: 100%;
-    box-sizing: unset;
-}
-
-.flexContainer {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
 }
 
 .card {
+    max-width: 33rem;
     margin: 1.5rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
