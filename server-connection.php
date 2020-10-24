@@ -9,5 +9,3 @@ $getAuthor = function (int $id): string {
         }
     }
 };
-
-echo $getAuthor(5);
