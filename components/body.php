@@ -1,5 +1,4 @@
 <div class="gridContainer">
-    // print_r($row->headline);
 
     <?php foreach ($data as $row) : ?>
         <div class="card">
@@ -23,7 +22,7 @@
                 <div class="card_expand-icon"></div>
             </div>
             <div class="card_bottom-section w-100">
-                <div class="card_author"><?= $row->author ?></div>
+                <div class="card_author"><?= $getAuthor($row->author_id) ?></div>
                 <div class="card_date"><?php echo gmdate('Y-m-d', $row->date) ?>
                 </div>
             </div>
