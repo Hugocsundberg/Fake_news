@@ -1,7 +1,7 @@
 <div class="gridContainer">
 
     <?php foreach ($data as $row) : ?>
-        <div class="card">
+        <div class="card <?= $row->color ?>">
             <div class="card_top-section w-100">
                 <div class="card_top-text h-100">
                     <p><?= $row->headline ?></p>
@@ -18,7 +18,15 @@
                     <?= $row->content ?>
                 </p>
             </div>
-            <div class="card_text-fade-away w-100">
+            <div class="card_text-fade-away w-100 <?php
+                                                    if ($row->color === 'blue') {
+                                                        echo 'linear_gradient_blue';
+                                                    } elseif ($row->color === 'green') {
+                                                        echo 'linear_gradient_green';
+                                                    } elseif ($row->color === 'red') {
+                                                        echo 'linear_gradient_red';
+                                                    }
+                                                    ?>">
                 <div class="card_expand-icon"></div>
             </div>
             <div class="card_bottom-section w-100">

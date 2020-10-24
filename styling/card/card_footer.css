@@ -6,8 +6,20 @@
     height: 11.2rem;
     bottom: 2rem;
     left: 0rem;
-    background: linear-gradient(180deg, rgba(225, 233, 244, 0) 0%, rgba(255, 255, 255, 0.0625) 0%, #E1E9F4 50%);
     
+}
+
+.linear_gradient_red {
+    background: linear-gradient(180deg, rgba(225, 233, 244, 0) 0%, rgba(255, 255, 255, 0.0625) 0%, #F4E1E1 50%); 
+    color: #693737;   
+}
+.linear_gradient_green {
+    background: linear-gradient(180deg, rgba(225, 233, 244, 0) 0%, rgba(255, 255, 255, 0.0625) 0%, #E1F4E3 50%);
+    color: #E1F4E3;  
+}
+.linear_gradient_blue {
+    background: linear-gradient(180deg, rgba(225, 233, 244, 0) 0%, rgba(255, 255, 255, 0.0625) 0%, #E1E9F4 50%);
+    color:  #374C69;  
 }
 
 .card_expand-icon {
@@ -25,7 +37,7 @@
     height: 2rem;
     bottom: 0rem;
     left: 0rem;
-    background: #E1E9F4;
+    /* background: #E1E9F4; */
 }
 
 .card_bottom-section * {

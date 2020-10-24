@@ -12,10 +12,24 @@
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     height: 43rem;
-    background: #E1E9F4;
     border-radius: 15px;
     position: relative;
     overflow: hidden;
+}
+
+.red {
+    background: rgb(244, 225, 225);
+    color: #693737;
+}
+
+.green {
+   background: rgb(225, 244, 227); 
+   color: 104416;
+}
+
+.blue {
+    background: #E1E9F4;
+    color: rgb(55, 76, 105);
 }
 
 .card_image {
