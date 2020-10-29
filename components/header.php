@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="../assets\Screenshot 2020-10-29 143639.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/styling/card/card_main.css">
     <link rel="stylesheet" href="/styling/card/card_footer.css">
     <link rel="stylesheet" href="/styling/card/card_nav.css">
