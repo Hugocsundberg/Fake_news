@@ -29,7 +29,7 @@
                                                     ?>">
                 <div class="card_expand-icon"></div>
             </div>
-            <div class="card_bottom-section w-100">
+            <div class="card_bottom-section w-100 <?= $row->color ?>">
                 <div class="card_author"><?= $getAuthor($row->author_id) ?></div>
                 <div class="card_date"><?php echo gmdate('Y-m-d', $row->date) ?>
                 </div>
@@ -37,4 +37,4 @@
         </div>
 
 
-    <?php endforeach ?> ?>
+    <?php endforeach ?>

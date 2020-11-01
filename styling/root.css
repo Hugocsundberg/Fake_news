@@ -1,6 +1,9 @@
 /* Affecting root/body/html */
 :root {
     font-size: 16px;
+    --blue: #E2E9F4;
+    --red: #F3E1E1;
+    --green: #E2F4E4;
 }
 
 body, html {
