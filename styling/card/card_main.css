@@ -18,17 +18,17 @@
 }
 
 .red {
-    background: rgb(244, 225, 225);
+    background: var(--red);
     color: #693737;
 }
 
 .green {
-   background: rgb(225, 244, 227); 
+   background: var(--green); 
    color: 104416;
 }
 
 .blue {
-    background: #E1E9F4;
+    background: var(--blue);
     color: rgb(55, 76, 105);
 }
 
